@@ -17,6 +17,14 @@ descO.close()
 # print(descR)
 # print(campoR)
 
+#Obteniendo path de imagenes con diferentes extensiones
+path = glob.glob('*.jpg')
+path += glob.glob('*.png')
+path += glob.glob('*.gif')
+path += glob.glob('*.webp')
+path += glob.glob('*.jfif')
+path += glob.glob('*.jpeg')
+
 imagenes = ''
 divImagenes = ''
 slide = 0
